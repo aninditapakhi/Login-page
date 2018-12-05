@@ -1,0 +1,92 @@
+html,
+body {
+  background-color:white;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.5em;
+}
+
+p {
+  display: block;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+
+.container {
+  background-color: #D3D3D3;
+  border-radius: 20px;
+  margin: auto;
+  width: 90%;
+  padding: 1em;  
+}
+
+#survey-form {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+.input-tab {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.input-field {
+  display: inline-block;
+  width: 50%;
+  padding: 5px;
+  margin: 18px 0 0 10px;
+  border: 1px solid #2276e6;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+input {
+  margin: 8px;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  background-color: #038245;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 10px 15px;
+  border: 1px solid;
+}
+
+button:hover {
+  background-color: #1fa386;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
